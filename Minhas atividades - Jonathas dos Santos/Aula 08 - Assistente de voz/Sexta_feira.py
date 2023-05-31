@@ -86,13 +86,14 @@ while True:
         if(string == ""):
             continue
         elif(string.lower() == "hora de dormir"):
-            speak("Mas já? Tudo bem, até mais!")
+            speak("Mas já? Certo, então até a próxima!")
             break
         elif("diga seu nome" in string.lower() or 
              string.lower() == "quem é você"):
-            speak("Eu sou sexta feira. Prazer!")
+            speak("Eu sou sexta feira. Prazer em te conhecer!")
         elif(string.lower() == "qual o nome do seu chefe" or
-             string.lower() == "qual o nome de seu chefe"):
+             string.lower() == "qual o nome de seu chefe" or
+             string.lower() == "quem é seu chefe"):
             speak("Jonathas. Mas não diga que eu contei, ele é tímido!")
         else:
             print(string)

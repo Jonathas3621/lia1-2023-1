@@ -1,0 +1,3 @@
+Para acessar a aplicação online acesse o link:
+
+https://huggingface.co/spaces/John3621/LIA
